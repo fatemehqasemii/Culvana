@@ -1,0 +1,1125 @@
+{
+  "recipes": [
+    {
+      "id": "chris_test_1",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "19",
+      "materialCosts": "0",
+      "category": "Pasta",
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "items_per_serving": 1,
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_3",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "94",
+      "materialCosts": "0",
+      "category": "Pasta",
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "items_per_serving": 1,
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_4",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "78",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Pizza",
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_5",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Chicken",
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_6",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "18",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Rice",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_7",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "50",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Entree",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_8",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "76",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Risotto",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_9",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "22",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Ingredient",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_10",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "13",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Entree",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_11",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "42",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Chicken",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_12",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "111",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Entree",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_13",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "98",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "category": "Pizza",
+
+      "servings": 40,
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_14",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "17",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Ingredient",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_15",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "25",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Rice",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    },
+    {
+      "id": "chris_test_16",
+      "sequence_number": 1,
+      "total_yield": "5.00 Pound",
+      "recipeCost": "192",
+      "foodCosts": "63",
+      "materialCosts": "0",
+      "items_per_serving": 1,
+      "name": "Peppers & Onions (40 serving yield)",
+      "created_at": "2025-03-03T14:58:46.532515",
+      "servings": 40,
+      "category": "Pasta",
+
+      "data": {
+        "recipe_name": "Peppers & Onions (40 serving yield)",
+        "serving_size": null,
+        "ingredients": [
+          {
+            "ingredient": "green bell peppers",
+            "recipe_amount": "18 unit",
+            "inventory_item": "green bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 18,
+            "unit_cost": 1.48,
+            "total_cost": 26.64,
+            "per_serving": {
+              "amount": 0.45,
+              "unit": "unit",
+              "converted_amount": 0.45,
+              "cost": 0.666
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "mixed color bell peppers",
+            "recipe_amount": "12 unit",
+            "inventory_item": "mixed color bell peppers",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 12,
+            "unit_cost": 0.62,
+            "total_cost": 7.44,
+            "per_serving": {
+              "amount": 0.3,
+              "unit": "unit",
+              "converted_amount": 0.3,
+              "cost": 0.186
+            },
+            "is_retail_estimate": true
+          },
+          {
+            "ingredient": "large yellow onions",
+            "recipe_amount": "4 unit",
+            "inventory_item": "large yellow onions",
+            "inventory_unit": "unit",
+            "note": "1 day old",
+            "converted_amount": 4,
+            "unit_cost": 0.62,
+            "total_cost": 2.48,
+            "per_serving": {
+              "amount": 0.1,
+              "unit": "unit",
+              "converted_amount": 0.1,
+              "cost": 0.062
+            },
+            "is_retail_estimate": true
+          }
+        ],
+        "total_cost": 36.56,
+        "cost_per_serving": 0.914,
+        "topping": "",
+        "Type": "ENUM['Recipe']"
+      }
+    }
+  ]
+}
