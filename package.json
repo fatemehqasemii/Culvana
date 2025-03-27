@@ -2,7 +2,7 @@
   "name": "culvana",
   "version": "0.1.0",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@ant-design/icons": "^5.5.1",
     "@refinedev/antd": "^5.44.0",
