@@ -16,20 +16,16 @@ import routerBindings, {
 import { App as AntdApp } from "antd";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router";
 import { Header, CustomFavicon } from "./components";
-import {
-  BlogPostCreate,
-  BlogPostEdit,
-  BlogPostList,
-  BlogPostShow,
-} from "./pages/blog-posts";
-import { Login } from "./auth/login";
 import { resources } from "./config/resources";
 import { authProvider } from "./providers/auth";
-import DataProvider from "./providers";
-import { Register } from "./auth/register";
-import { ForgotPassword } from "./auth/forgot-password";
 import dataProvider from "@refinedev/simple-rest";
-
+import { Login, ForgotPassword, Register } from "./auth/index";
+import {
+  RecipeCreate,
+  RecipeEdit,
+  Recipes,
+  RecipesDetail,
+} from "./pages/recieps";
 function App() {
   return (
     <BrowserRouter>
@@ -71,10 +67,10 @@ function App() {
                   element={<NavigateToResource resource="recipes" />}
                 />
                 <Route path="/recipes">
-                  <Route index element={<BlogPostList />} />
-                  <Route path="create" element={<BlogPostCreate />} />
-                  <Route path="edit/:id" element={<BlogPostEdit />} />
-                  <Route path="show/:id" element={<BlogPostShow />} />
+                  <Route index element={<Recipes />} />
+                  <Route path="create" element={<RecipeCreate />} />
+                  <Route path="edit/:id" element={<RecipeEdit />} />
+                  <Route path="show/:id" element={<RecipesDetail />} />
                 </Route>
                 <Route path="*" element={<ErrorComponent />} />
               </Route>

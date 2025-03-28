@@ -1,11 +1,11 @@
 import { EditButton, ExportButton, Show } from "@refinedev/antd";
 import { useOne, useShow } from "@refinedev/core";
 import { Button, Tabs, TabsProps } from "antd";
-import { Nutritional } from "./steps/nutritional";
-import { IngredientsMethodTab } from "./steps/ingredients_methodTab";
-import { Cost } from "./steps/cost";
+import { Nutritional } from "../steps/nutritional";
+import { IngredientsMethodTab } from "../steps/ingredients_methodTab";
+import { Cost } from "../steps/cost";
 
-export const BlogPostShow = () => {
+export const RecipesDetail = () => {
   const { queryResult } = useShow({});
   const { data, isLoading } = queryResult;
 

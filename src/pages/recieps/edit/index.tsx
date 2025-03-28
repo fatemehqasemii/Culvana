@@ -1,6 +1,6 @@
 import { Edit } from "@refinedev/antd";
 
-export const BlogPostEdit = () => {
+export const RecipeEdit = () => {
   return (
     <Edit
       saveButtonProps={{ style: { display: "none" } }}

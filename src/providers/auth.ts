@@ -27,11 +27,11 @@ export const authProvider: AuthBindings & AuthProvider = {
             avatar: profileObj.picture,
           })
         );
-        return { success: true, redirectTo: "/blog-posts" };
+        return { success: true, redirectTo: "/recipes" };
       }
     } else if ((params.username || params.email) && params.password) {
       localStorage.setItem(TOKEN_KEY, params.username || params.email);
-      return { success: true, redirectTo: "/blog-posts" };
+      return { success: true, redirectTo: "/recipes" };
     }
     return {
       success: false,
@@ -53,8 +53,15 @@ export const authProvider: AuthBindings & AuthProvider = {
       : { authenticated: false, redirectTo: "/login" };
   },
   getIdentity: async () => {
-    const user = localStorage.getItem("user");
-    return user ? JSON.parse(user) : null;
+    const token = localStorage.getItem(TOKEN_KEY);
+    if (token) {
+      return {
+        id: 1,
+        name: "Morteza Giti",
+        avatar: "https://i.pravatar.cc/100",
+      };
+    }
+    return null;
   },
   getPermissions: async () => null,
   onError: async (error) => {

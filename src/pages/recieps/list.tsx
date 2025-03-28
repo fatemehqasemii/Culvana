@@ -8,11 +8,13 @@ import {
   TagField,
   useTable,
 } from "@refinedev/antd";
-
 import { Col, Input, Row, Select, Space, Table } from "antd";
 import { OptionsCategory, OptionsStatus } from "../../enums";
+import { BaseRecord } from "@refinedev/core";
+import { ColumnType } from "antd/es/table";
+import { RecipeRecord } from "./recipes.types";
 
-export const BlogPostList = () => {
+export const Recipes = () => {
   const { tableProps } = useTable({
     resource: "recipes",
     syncWithLocation: true,
@@ -24,6 +26,71 @@ export const BlogPostList = () => {
       { field: "serving", order: "asc" },
     ],
   });
+
+  const columns: ColumnType<BaseRecord>[] = [
+    {
+      dataIndex: "name",
+      title: "Recipe Name",
+      sorter: { multiple: 1 },
+    },
+    {
+      dataIndex: "category",
+      title: "Category",
+      sorter: { multiple: 2 },
+    },
+    {
+      dataIndex: "Type",
+      title: "Type",
+      sorter: { multiple: 3 },
+      render: (value: any, record: BaseRecord) => {
+        const recipeRecord = record as RecipeRecord;
+        return <TagField value={recipeRecord.Type} color="blue" />;
+      },
+    },
+    {
+      dataIndex: "total_yield",
+      title: "Yields",
+      sorter: { multiple: 4 },
+    },
+    {
+      dataIndex: "servings",
+      title: "No.of Serving",
+      sorter: { multiple: 5 },
+    },
+    {
+      dataIndex: "recipeCost",
+      title: "Recipes Cost",
+      sorter: { multiple: 6 },
+    },
+    {
+      dataIndex: "foodCosts",
+      title: "Food Cost",
+      sorter: { multiple: 6 },
+    },
+    {
+      dataIndex: "materialCosts",
+      title: "Material Cost",
+      sorter: { multiple: 6 },
+    },
+    {
+      title: "Actions",
+      dataIndex: "actions",
+      render: (value: any, record: BaseRecord) => {
+        const recipeRecord = record as RecipeRecord;
+        return (
+          <Space>
+            <EditButton hideText size="small" recordItemId={recipeRecord?.id} />
+            <ShowButton hideText size="small" recordItemId={recipeRecord?.id} />
+            <DeleteButton
+              hideText
+              size="small"
+              recordItemId={recipeRecord?.id}
+            />
+          </Space>
+        );
+      },
+    },
+  ];
 
   return (
     <List
@@ -63,6 +130,7 @@ export const BlogPostList = () => {
     >
       <Table
         {...tableProps}
+        columns={columns}
         rowKey="id"
         pagination={{
           ...tableProps.pagination,
@@ -85,62 +153,7 @@ export const BlogPostList = () => {
             </span>
           ),
         }}
-      >
-        <Table.Column
-          dataIndex="name"
-          title="Recipe Name"
-          sorter={{ multiple: 1 }}
-        />
-        <Table.Column
-          dataIndex="category"
-          title="Category"
-          sorter={{ multiple: 2 }}
-        />
-        <Table.Column
-          dataIndex="Type"
-          title="Type"
-          sorter={{ multiple: 3 }}
-          render={(value: string) => (
-            <TagField value={"Bulk Recipe"} color="blue" />
-          )}
-        />
-        <Table.Column
-          dataIndex="total_yield"
-          title="Yields"
-          sorter={{ multiple: 4 }}
-        />
-        <Table.Column
-          dataIndex="servings"
-          title="No.of Serving"
-          sorter={{ multiple: 5 }}
-        />
-        <Table.Column
-          dataIndex={"recipeCost"}
-          title={"Recipes Cost"}
-          sorter={{ multiple: 6 }}
-        />
-        <Table.Column
-          dataIndex={"foodCosts"}
-          title={"Food Cost"}
-          sorter={{ multiple: 6 }}
-        />
-        <Table.Column
-          dataIndex={"materialCosts"}
-          title={"Material Cost"}
-          sorter={{ multiple: 6 }}
-        />
-        <Table.Column
-          title={"Actions"}
-          dataIndex="actions"
-          render={(_, record) => (
-            <Space>
-              <EditButton hideText size="small" recordItemId={record?.id} />
-              <ShowButton hideText size="small" recordItemId={record?.id} />
-              <DeleteButton hideText size="small" recordItemId={record?.id} />
-            </Space>
-          )}
-        />
-      </Table>
+      />
     </List>
   );
 };

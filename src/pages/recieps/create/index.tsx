@@ -2,7 +2,7 @@ import { InboxOutlined } from "@ant-design/icons";
 import { Create } from "@refinedev/antd";
 import { Upload, message } from "antd";
 
-export const BlogPostCreate = () => {
+export const RecipeCreate = () => {
   const { Dragger } = Upload;
   const props = {
     name: "file",
